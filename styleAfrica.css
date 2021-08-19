@@ -1,0 +1,287 @@
+body {
+    background-color: #cccccc;
+}
+
+.header {
+    background-color: white;
+}
+
+.allthree {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.problem {
+    white-space: nowrap;
+    position: relative;
+    right: -200px;
+    top: 70px;
+    text-decoration: underline;
+}
+
+.importance {
+    white-space: nowrap;
+    position: relative;
+    right: -180px;
+    top: 70px;
+    text-decoration: underline;
+}
+
+.app {
+    white-space: nowrap;
+    position: relative;
+    right: -180px;
+    top: 70px;
+    text-decoration: underline;
+}
+
+button {
+    width: 200px;
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button:hover {
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.continents {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+}
+
+#subname {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+.intro {
+    color: white;
+    position: relative;
+    text-align: center;
+    right: -320px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: white;
+    position: relative;
+    right: -10px;
+}
+
+h1 {
+    position: relative;
+    top: 10px;
+    text-decoration: underline;
+}
+
+.plan {
+    transform: scaleX(-1);
+    float: right;
+}
+
+#plane {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    float: right;
+    width: 150px;
+    background-color: white;
+}
+
+#what {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    position: relative;
+    right: -170px;
+    top: -0px;
+}
+
+#important {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    position: relative;
+    right: -150px;
+    top: 30px;
+}
+
+#prob {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    position: relative;
+    right: -150px;
+    top: 30px;
+}
+
+.details {
+    background: white;
+    color: black;
+    width: 450px;
+    line-height: 25px;
+    border-left: 5px solid #B1D7FE;
+    border-right: 5px solid #B1D7FE;
+    border-top: 5px solid #B1D7FE;
+    border-bottom: 5px solid #B1D7FE;
+}
+
+#whatinfo {
+    position: relative;
+    top: 60px;
+    right: -85px;
+    text-align: center;
+}
+
+#importanceinfo {
+    position: relative;
+    top: 60px;
+    right: -85px;
+    text-align: center;
+}
+
+#probinfo {
+    position: relative;
+    top: 60px;
+    right: -80px;
+    text-align: center;
+}
+
+@media(max-width: 1332px) {
+
+    h2 {
+        color: black;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    .allthree {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .details {
+        width: 80%;
+    }
+}
+
+@media(max-width: 530px) {
+
+    h2 {
+        color: black;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+    .details {
+        width: 80%;
+        line-height: 80%;
+    }
+}
+
+@keyframes north {
+    from {
+    
+    }
+    to {
+        transform: translateX(76vw);
+    }
+}
+
+@keyframes europe {
+    from {
+    
+    }
+    to {
+        transform: translateX(64vw);
+    }
+}
+
+@keyframes asia {
+    from {
+    
+    }
+    to {
+        transform: translateX(39vw);
+    }
+}
+
+@keyframes south {
+    from {
+    
+    }
+    to {
+        transform: translateX(51vw);
+    }
+}
+
+@keyframes aust {
+    from {
+    
+    }
+    to {
+        transform: translateX(27vw);
+    }
+}
+
+@keyframes africa {
+    from {
+    
+    }
+    to {
+        transform: translateX(2vw);
+    }
+}
+
+@keyframes ant {
+    from {
+    
+    }
+    to {
+        transform: translateX(15vw);
+    }
+}
+
+@keyframes hom {
+    from {
+    
+    }
+    to {
+        transform: translateX(88vw);
+    }
+}
+
+.im {
+    block-size: 80px;
+    width: 200px;
+}
+
+#o {
+    width: 50px;
+}
